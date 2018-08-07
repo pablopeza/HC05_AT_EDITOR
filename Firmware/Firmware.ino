@@ -1,6 +1,8 @@
 /*
+ * 
  * https://naylampmechatronics.com/blog/24_configuracion-del-modulo-bluetooth-hc-05-usa.html
  */
+ 
 #include <SoftwareSerial.h>   // Software serial library  
 SoftwareSerial BT(10,11);    // This defines the arduino pins (Rx, Tx) for communicate with the module 
 
